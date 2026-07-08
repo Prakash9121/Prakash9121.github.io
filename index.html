@@ -651,7 +651,7 @@
 
     .cert-grid {
       display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 14px;
     }
 
@@ -675,6 +675,17 @@
     .cert span {
       color: var(--muted);
       font-size: 14px;
+    }
+
+    .cert a {
+      align-self: flex-start;
+      margin-top: 12px;
+      color: #c2410c;
+      font-size: 13px;
+      font-weight: 850;
+      text-decoration: underline;
+      text-decoration-color: rgba(249, 115, 22, 0.36);
+      text-underline-offset: 4px;
     }
 
     .contact-card {
@@ -2038,11 +2049,21 @@
           <h2>Learning & credentials</h2>
         </div>
         <p class="section-intro">
-          Certifications aligned with AI agents, cybersecurity fundamentals, security operations, and practical cloud-aware delivery.
+          Certifications aligned with AI prompting, applied AI workflows, cybersecurity fundamentals, security operations, and practical cloud-aware delivery.
         </p>
       </div>
 
       <div class="cert-grid">
+        <article class="cert reveal">
+          <strong>Google AI Professional Certificate</strong>
+          <span>Coursera | July 2026</span>
+          <a href="https://coursera.org/verify/professional-cert/F104TH7HCAW1" target="_blank" rel="noopener">Verify credential</a>
+        </article>
+        <article class="cert reveal">
+          <strong>Google Prompting Essentials Specialization</strong>
+          <span>Coursera | July 2026</span>
+          <a href="https://coursera.org/verify/specialization/0RNDB9J1UZ9Q" target="_blank" rel="noopener">Verify credential</a>
+        </article>
         <article class="cert reveal"><strong>Microsoft AI Agents: From Foundations to Applications</strong><span>Coursera | June 2026</span></article>
         <article class="cert reveal"><strong>Microsoft Cybersecurity Analyst</strong><span>Coursera | Feb 2026</span></article>
         <article class="cert reveal"><strong>Google Cybersecurity</strong><span>Coursera | Sep 2025</span></article>
